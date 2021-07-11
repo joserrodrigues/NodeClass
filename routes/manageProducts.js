@@ -17,4 +17,13 @@ router.post('/product', [
     body('type').trim().isLength({ min: 7 }),
 ], productController.addProduct);
 
+// PUT /manageProducts/product
+router.put('/product/:prodId', [
+    body('title').trim().isLength({ min: 7 }),
+    body('type').trim().isLength({ min: 7 }),
+], productController.updateProduct);
+
+// DELETE /manageProducts/product
+router.delete('/product/:prodId', productController.deleteProduct);
+
 module.exports = router;
