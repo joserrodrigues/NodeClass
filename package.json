@@ -1,0 +1,28 @@
+{
+  "name": "nodeclass",
+  "version": "1.0.0",
+  "description": "API Node Class",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joserrodrigues/NodeClass.git"
+  },
+  "author": "José Rubens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joserrodrigues/NodeClass/issues"
+  },
+  "homepage": "https://github.com/joserrodrigues/NodeClass#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
