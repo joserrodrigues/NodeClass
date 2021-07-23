@@ -22,7 +22,7 @@ app.use((error, req, res, next) => {
     res.status(status).json({ message: message, data: data });
 });
 
-mongoose.connect('mongodb+srv://root:lWb1qzDZdoSLxJkl@cluster0.vdqdy.mongodb.net/products?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://root:password@cluster0.dsfsdfs.mongodb.net/products?retryWrites=true&w=majority',
 { useNewUrlParser: true, useUnifiedTopology: true })
 .then(result => {
     app.listen(80);
